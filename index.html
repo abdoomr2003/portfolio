@@ -38,18 +38,25 @@
     </nav>
     <section id="profile">
         <div class="section_pic-container">
-            <img src="assets/profile-pic.png" alt="profile">
+            <img src="assets/profile-pic.png" alt="profile" id="round-image">
             </div>
-            <div class="section-text">
+            <div class="section_text">
                 <p class="greeting">Hello, I'm</p>
                 <h1 class="title">Abdelrahman Atef</h1>
                 <p class="specializations">Back-End Developer</p>
                 <p class="jop">Freelancer</p>
                 <div class="btn-container">
-                    <button class="btn btn-color-2" onclick="window.open('assets/resume-example.pdf')"> Download cv</button>
+                    <button class="btn btn-color-1" onclick="window.open('assets/resume-example.pdf')"> Download cv</button>
+                    <button class="btn btn-color-2" onclick="location.href='./#contact'"> Contact me</button>
                 </div>
-                <div class="btn-container">
-                    <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact me</button>
+                <div id="socials-container">
+                    <a href="https://www.linkedin.com/in/abdelrahman-atef-omer-56a0aa235/" target="_blank">
+                        <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon">
+                    </a>
+                    <a href="https://github.com/abdoomr2003" target="_blank">
+                        <img src="./assets/github.png" alt="My Github Profile" class="icon">
+                    </a>
+                </div>
                 </div>
             </div>
     </section>
